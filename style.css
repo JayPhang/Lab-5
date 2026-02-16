@@ -31,6 +31,7 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     /* TASK 4 Hint: Add transition here for border-color and background-color */
+    transition: border-color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .error-msg {
@@ -61,6 +62,7 @@ input[type="password"] {
     position: relative;
     overflow: hidden;
     /* TASK 4: Add transitions here (transform + background-color) */
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .thumb img {
